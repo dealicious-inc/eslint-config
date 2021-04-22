@@ -5,6 +5,8 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// https://snyk.io/advisor/npm-package/eslint-plugin-notice
+
 const TEMPLATE = `/**
  * Copyright Dealicious, Inc.
  *

@@ -5,6 +5,10 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// https://snyk.io/advisor/npm-package/eslint-plugin-jest
+// https://github.com/jest-community/eslint-plugin-jest
+// 0: off, 1: warning, 2: error
+
 module.exports = {
   plugins: ['jest'],
   env: { 'jest/globals': true },

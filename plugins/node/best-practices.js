@@ -8,7 +8,7 @@
 module.exports = {
   plugins: ['node'],
   rules: {
-    // disallow deprecated APIs
+    // deprecated API 를 허용하지 않습니다.
     'node/no-deprecated-api': 2
   }
 };

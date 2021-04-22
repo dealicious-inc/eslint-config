@@ -5,6 +5,8 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// https://snyk.io/advisor/npm-package/eslint-plugin-react
+
 module.exports = {
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   extends: ['plugin:jsx-a11y/recommended'],

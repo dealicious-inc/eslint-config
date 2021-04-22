@@ -5,6 +5,8 @@
  * found at http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+// https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
+
 const bestPractices = require('../rules/best-practices').rules;
 const es6 = require('../rules/es6').rules;
 const possibleErrors = require('../rules/possible-errors').rules;
