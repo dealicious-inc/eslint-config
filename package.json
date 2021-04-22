@@ -1,12 +1,15 @@
 {
-  "name": "@dealicious-ui/eslint-config",
+  "name": "@deali-web/eslint-config",
   "description": "Dealicious ESLint Config",
   "license": "MIT",
   "author": "Dealicious UI <ui@dealicious.kr>",
   "homepage": "https://github.com/dealicious-inc/eslint-config",
-  "repository": "https://github.com/dealicious-inc/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deali-web/eslint-config"
+  },
   "bugs": {
-    "url": "https://github.com/dealicious-inc/eslint-config/issues"
+    "url": "https://github.com/deali-web/eslint-config/issues"
   },
   "version": "0.1.0",
   "main": "index.js",
@@ -53,7 +56,7 @@
     "eslint"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   },
   "release-it": {
     "github": {
