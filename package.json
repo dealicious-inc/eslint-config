@@ -1,12 +1,12 @@
 {
-  "name": "@openmango/eslint-config",
-  "description": "OpenMango ESLint Config",
+  "name": "@dealicious-ui/eslint-config",
+  "description": "Dealicious ESLint Config",
   "license": "MIT",
   "author": "Dealicious UI <ui@dealicious.kr>",
-  "homepage": "https://ui.dealicious.kr/",
-  "repository": "https://github.com/open-mango/eslint-config",
+  "homepage": "https://github.com/dealicious-inc/eslint-config",
+  "repository": "https://github.com/dealicious-inc/eslint-config",
   "bugs": {
-    "url": "https://github.com/open-mango/eslint-config/issues"
+    "url": "https://github.com/dealicious-inc/eslint-config/issues"
   },
   "version": "0.1.0",
   "main": "index.js",
