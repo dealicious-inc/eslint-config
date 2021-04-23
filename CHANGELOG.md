@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/deali-web/eslint-config/compare/v0.1.3...v0.1.4) (2021-04-23)
+
+
+### Features
+
+* create .github build.yml ([e32dbdc](https://github.com/deali-web/eslint-config/commit/e32dbdc865edf439eb5775e27b9bcdb98506ad66))
+* create .npmrc file ([42a9e45](https://github.com/deali-web/eslint-config/commit/42a9e45d1243b658402e9bf611d2e3526e7020ba))
+
 ### [0.1.3](https://github.com/deali-web/eslint-config/compare/v0.1.2...v0.1.3) (2021-04-23)
 
 
