@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/dealicious-inc/eslint-config/compare/v1.0.1...v1.0.2) (2021-04-27)
+
 ### [1.0.1](https://github.com/dealicious-inc/eslint-config/compare/v0.1.5...v1.0.1) (2021-04-27)
 
 ### [0.1.5](https://github.com/deali-web/eslint-config/compare/v0.1.4...v0.1.5) (2021-04-23)
