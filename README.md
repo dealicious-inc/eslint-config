@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install eslint babel-eslint eslint-plugin-node @deali-web/eslint-config
+npm install eslint babel-eslint eslint-plugin-node @dealicious-inc/eslint-config
 ```
 
 ## Usage
@@ -14,12 +14,12 @@ npm install eslint babel-eslint eslint-plugin-node @deali-web/eslint-config
 
 ```json
 {
-  "extends": "@deali-web"
+  "extends": "@dealicious-inc"
 }
 ```
 
 이제 Dealicious 에 공통으로 적용될 `eslint rules` 들이 적용되는 것을 확인하실 수 있을 것입니다.
-`@deali-web/eslint-config` 에 사용된 세부적인 설정사항은 [ESLint Documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) 을 참고하세요.
+`@dealicious-inc/eslint-config` 에 사용된 세부적인 설정사항은 [ESLint Documentation](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) 을 참고하세요.
 
 ### Plugins
 
@@ -37,7 +37,7 @@ npm install jest eslint-plugin-jest
 
 ```json
 {
-  "extends": ["@deali-web", "@deali-web/eslint-config/plugins/jest"]
+  "extends": ["@dealicious-inc", "@dealicious-inc/eslint-config/plugins/jest"]
 }
 ```
 
@@ -49,7 +49,7 @@ npm install jest eslint-plugin-jest
   "overrides": [
     {
       "files": ["*.spec.*"],
-      "extends": "@deali-web/eslint-config/plugins/jest"
+      "extends": "@dealicious-inc/eslint-config/plugins/jest"
     }
   ]
 }
@@ -68,7 +68,7 @@ npm install eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
 
 ```json
 {
-  "extends": ["@deali-web", "@deali-web/eslint-config/plugins/react"]
+  "extends": ["@dealicious-inc", "@dealicious-inc/eslint-config/plugins/react"]
 }
 ```
 
@@ -86,8 +86,8 @@ npm install typescript @typescript-eslint/parser @typescript-eslint/eslint-plugi
 ```json
 {
   "extends": [
-    "@deali-web",
-    "@deali-web/eslint-config/plugins/typescript"
+    "@dealicious-inc",
+    "@dealicious-inc/eslint-config/plugins/typescript"
   ]
 }
 ```
@@ -96,17 +96,12 @@ npm install typescript @typescript-eslint/parser @typescript-eslint/eslint-plugi
 
 ```json
 {
-  "extends": "@deali-web",
+  "extends": "@dealicious-inc",
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": "@zendeskgarden/eslint-config/plugins/typescript"
+      "extends": "@dealicious-inc/eslint-config/plugins/typescript"
     }
   ]
 }
 ```
-
-
-
-
-
